@@ -20,6 +20,7 @@ def whisper_api(file_path: str) -> str:
         response_format="text"
     )
 
-    print(transcription)
+    print("---> Se ha transcrito el audio exitozamente")
+    print("---> Gerando el documento.docx...⏳")
 
     return transcription

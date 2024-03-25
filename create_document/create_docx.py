@@ -17,5 +17,5 @@ def generate_docx_document(file_name_docx, transcription: str):
 
     # Abrimos el archivo y lo enviamos
     file_docx = open(file_path, 'rb')
-    
+
     return file_docx
