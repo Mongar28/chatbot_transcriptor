@@ -4,3 +4,8 @@ audios
 documents
 __pycache__/
 *.pyc
+api_openai/__pycache__/
+audio_management/__pycache__/
+create_document/__pycache__/
+messages/__pycache__/
+usage_history/__pycache__/
