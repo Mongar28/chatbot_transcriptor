@@ -2,3 +2,5 @@
 .env
 audios
 documents
+__pycache__/
+*.pyc
