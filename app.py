@@ -10,7 +10,8 @@ import os
 
 
 # Configuración del bot
-# Cargarmos la varible de entorno desde el archivo .env que contine el api_token del bot
+# Cargarmos la varible de entorno desde el archivo .env que contine
+# el api_token del bot
 load_dotenv()
 
 API_TOKEN_BOT: str = os.getenv("API_TOKEN_BOT")

@@ -36,7 +36,7 @@ class BotMessages():
         return waiting_message
 
     def voice_waiting_message(self, message) -> str:
-        
+
         voice_size = message.voice.file_size
         voice_size = voice_size / (1024 * 1024)
         waiting_message: str = f"""

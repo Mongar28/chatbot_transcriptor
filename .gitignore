@@ -1,7 +1,5 @@
 .venv
 .env
-audios
-documents
 __pycache__/
 *.pyc
 api_openai/__pycache__/
