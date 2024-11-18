@@ -8,7 +8,7 @@ def whisper_api(file_path: str) -> str:
     load_dotenv()
 
     # Usar la variable de entorno API_KEY
-    api_key: str = os.getenv("API_KEY")
+    api_key: str = os.getenv("OPENAI_API_KEY")
 
     # Cargar el modelo whisper
     client = OpenAI(api_key=api_key)
